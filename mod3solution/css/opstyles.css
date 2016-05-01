@@ -1,0 +1,93 @@
+#header-nav {
+	background-color: #808080;
+	border: 2px solid black;
+	border-radius: 0;
+	margin-bottom: 10px;
+}
+
+.navbar-brand span {
+	color: #000000;
+	font-size: 1.15em;
+	font-weight: bold;
+	float: left;
+	margin: auto;
+	padding-left: 20px;
+}
+
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar {
+	width: 36px;
+	border: 1px solid black;
+	padding-left: 2px;	
+	margin-right: 20px;
+}
+
+.navbar-header .icon-bar {
+	width: 30px;
+	border: 2px solid black;
+}
+
+#nav-list {
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: auto;
+}
+
+#nav-list a {
+	line-height: 10px;
+	color: #000000;
+	font-weight: bold;
+	margin-right: 0px;
+	border-top: 2px solid black;
+}
+
+#nav-list a:hover, #nav-list a:focus {
+  background: #999999;
+  color: #ffffff
+}
+
+#nav-list a span {
+  font-size: 1.50em;
+}
+
+h2 {
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+#menu-tile {
+	color: black;
+  	font-weight: bold;
+	height: 700px;
+	background-color: #808080;
+	margin-bottom: 40px;
+  	overflow: auto;
+}
+
+#menu-tile h3 {
+	font-weight: bold;
+  	margin-top: 10px;
+  	margin-bottom: 15px;
+  	font-size: 1.25em;
+}
+
+#menu-tile p {
+	font-weight: bold;
+   	padding-left: 30px;
+  	padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+	#menu-tile {
+		margin-left: 60px;
+		margin-right: 60px;
+		padding-left: 10px;
+  		padding-right: 10px;
+  		
+	}
+
+	#bs-example-navbar-collapse-1 {
+	border-top: 1px solid black;
+	}
+}
