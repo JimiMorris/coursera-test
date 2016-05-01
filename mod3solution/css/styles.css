@@ -1,14 +1,9 @@
-/* header styles*/
 #header-nav {
 	background-color: #808080;
 	border: 2px solid black;
 	border-radius: 0;
 	margin-bottom: 10px;
 }
-
-/*#header-nav .navbar .navbar-default {
-
-}*/
 
 .navbar-brand span {
 	color: #000000;
@@ -23,9 +18,7 @@
 .navbar-header button.navbar-toggle,.navbar-header .icon-bar {
 	width: 36px;
 	border: 1px solid black;
-	padding-left: 2px;
-	padding-top: -1px;
-	padding-bottom: auto;	
+	padding-left: 2px;	
 	margin-right: 20px;
 }
 
@@ -34,44 +27,20 @@
 	border: 2px solid black;
 }
 
-
-.navbar-header button.navbar-toggle:focus {
-	border: 1px solid white;
-	background-color: #808080;
-}
-
-/*.navbar-header .icon-bar:active {
-	border: 2px solid white;
-}*/
-
-#bs-example-navbar-collapse-1 {
-	border-top: 1px solid black;
-}
-
-.navbar-nav > li > a {
-    line-height: 10px;
-}
 #nav-list {
 	background-color: #ffffff;
 	margin-top: 0px;
-	
 	margin-bottom: auto;
 }
 
 #nav-list a {
+	line-height: 10px;
 	color: #000000;
-	width: 100%;
 	font-weight: bold;
-	text-align: center;
 	margin-right: 0px;
 	border-top: 2px solid black;
 }
-#nav-list a:hover {
-  background: #999999;
-  color: #ffffff
-}
-
-#nav-list a:focus {
+#nav-list a:hover, #nav-list a:focus {
   background: #999999;
   color: #ffffff
 }
@@ -79,7 +48,6 @@
 #nav-list a span {
   font-size: 1.50em;
 }
-/* END header styles*/
 
 h2 {
 	color: #000000;
@@ -88,24 +56,16 @@ h2 {
 	margin-top: 20px;
 }
 
-/* Main Content*/
-
-
 #menu-tile {
 	color: black;
   	font-weight: bold;
 	height: 1000px;
 	background-color: #808080;
   	overflow: hidden;
-
-  
-
-
 }
 
 #menu-tile h3 {
 	font-weight: bold;
-  	text-align: center;
   	margin-top: 10px;
   	margin-bottom: 15px;
   	font-size: 1.25em;
@@ -113,10 +73,10 @@ h2 {
 
 #menu-tile p {
 	font-weight: bold;
-  	text-align: left;
-  	padding-left: 20px;
-  	padding-right: 20px;
+   	padding-left: 30px;
+  	padding-right: 15px;
 }
+
 @media (max-width: 767px) {
 	#menu-tile {
 		margin-left: 60px;
@@ -124,11 +84,11 @@ h2 {
 		padding-left: 10px;
   		padding-right: 10px;
 	}
+
+	#bs-example-navbar-collapse-1 {
+	border-top: 1px solid black;
+	}
 }
 
-
-
-
-  
 
 
